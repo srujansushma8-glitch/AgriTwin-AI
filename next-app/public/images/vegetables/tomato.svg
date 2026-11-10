@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="tomatoRed" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="60%" stop-color="#dc2626" />
+      <stop offset="100%" stop-color="#991b1b" />
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="8" stdDeviation="6" flood-color="#000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  <rect width="400" height="400" rx="40" fill="#0f172a" />
+  <circle cx="200" cy="200" r="160" fill="#1e293b" stroke="#ef4444" stroke-width="2" stroke-opacity="0.3" />
+
+  <g id="tomatoBody" filter="url(#shadow)">
+    <!-- Plump Red Fruit -->
+    <circle cx="200" cy="230" r="95" fill="url(#tomatoRed)" />
+    <!-- Calyx Green Star Sepals -->
+    <path d="M 200 135 L 180 110 L 195 125 L 160 120 L 190 132 L 180 150 L 200 138 L 220 150 L 210 132 L 240 120 L 205 125 L 220 110 Z" fill="#15803d" />
+    <!-- Stem Hook -->
+    <path d="M 200 125 C 200 95, 215 80, 230 75" stroke="#166534" stroke-width="6" stroke-linecap="round" fill="none" />
+    <!-- Specular Highlight -->
+    <ellipse cx="165" cy="185" rx="24" ry="14" fill="#ffffff" opacity="0.35" transform="rotate(-30 165 185)" />
+  </g>
+  <text x="200" y="385" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">TOMATO • SOLANUM LYCOPERSICUM</text>
+</svg>

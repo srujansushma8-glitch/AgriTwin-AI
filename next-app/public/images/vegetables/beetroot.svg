@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="beetBulb" cx="35%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#a21caf" />
+      <stop offset="50%" stop-color="#701a75" />
+      <stop offset="100%" stop-color="#4a044e" />
+    </radialGradient>
+    <linearGradient id="beetStalk" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#be185d" />
+      <stop offset="100%" stop-color="#831843" />
+    </linearGradient>
+    <linearGradient id="beetLeaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15803d" />
+      <stop offset="100%" stop-color="#14532d" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="8" stdDeviation="6" flood-color="#000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  <!-- Background badge -->
+  <rect width="400" height="400" rx="40" fill="#0f172a" />
+  <circle cx="200" cy="200" r="160" fill="#1e293b" stroke="#d946ef" stroke-width="2" stroke-opacity="0.3" />
+
+  <!-- Beet Leaves & Ruby Stalks -->
+  <g id="beetTops" filter="url(#shadow)">
+    <!-- Central Stalk & Leaf -->
+    <path d="M 200 200 C 200 130, 200 70, 200 40 C 205 70, 205 130, 200 200" fill="url(#beetStalk)" />
+    <path d="M 200 40 C 170 50, 160 90, 185 120 C 195 130, 205 130, 215 120 C 240 90, 230 50, 200 40 Z" fill="url(#beetLeaf)" />
+    <!-- Leaf midrib red vein -->
+    <path d="M 200 120 Q 200 70 200 45" stroke="#f43f5e" stroke-width="3" fill="none" />
+
+    <!-- Left Stalk & Leaf -->
+    <path d="M 185 200 C 160 140, 130 90, 110 70" stroke="url(#beetStalk)" stroke-width="8" stroke-linecap="round" fill="none" />
+    <path d="M 110 70 C 85 85, 80 125, 110 145 C 130 150, 145 140, 150 125 C 160 95, 135 75, 110 70 Z" fill="url(#beetLeaf)" />
+    <path d="M 135 140 Q 120 100 112 75" stroke="#f43f5e" stroke-width="2.5" fill="none" />
+
+    <!-- Right Stalk & Leaf -->
+    <path d="M 215 200 C 240 140, 270 90, 290 70" stroke="url(#beetStalk)" stroke-width="8" stroke-linecap="round" fill="none" />
+    <path d="M 290 70 C 315 85, 320 125, 290 145 C 270 150, 255 140, 250 125 C 240 95, 265 75, 290 70 Z" fill="url(#beetLeaf)" />
+    <path d="M 265 140 Q 280 100 288 75" stroke="#f43f5e" stroke-width="2.5" fill="none" />
+  </g>
+
+  <!-- Globose Swollen Beetroot Bulb -->
+  <g id="beetBulbGroup" filter="url(#shadow)">
+    <!-- Swollen Bulb Body -->
+    <ellipse cx="200" cy="245" rx="75" ry="68" fill="url(#beetBulb)" />
+    <!-- Taproot Tail -->
+    <path d="M 200 310 C 200 330, 195 350, 190 370 C 193 350, 203 330, 200 310" stroke="#701a75" stroke-width="6" stroke-linecap="round" fill="#701a75" />
+    <!-- Subtle root rings -->
+    <path d="M 155 240 Q 200 255 245 240" stroke="#4a044e" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6" />
+    <path d="M 165 270 Q 200 285 235 270" stroke="#4a044e" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.6" />
+    <!-- Specular highlight -->
+    <ellipse cx="170" cy="225" rx="20" ry="14" fill="#f0abfc" opacity="0.25" transform="rotate(-20 170 225)" />
+  </g>
+  <text x="200" y="388" font-family="sans-serif" font-size="14" font-weight="bold" fill="#d946ef" text-anchor="middle">BEETROOT • BETA VULGARIS</text>
+</svg>

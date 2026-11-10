@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="potatoSkin" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="60%" stop-color="#b45309" />
+      <stop offset="100%" stop-color="#78350f" />
+    </radialGradient>
+    <linearGradient id="potatoPlant" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#15803d" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="8" stdDeviation="6" flood-color="#000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  <!-- Background badge -->
+  <rect width="400" height="400" rx="40" fill="#0f172a" />
+  <circle cx="200" cy="200" r="160" fill="#1e293b" stroke="#eab308" stroke-width="2" stroke-opacity="0.3" />
+
+  <!-- Green Potato Bush & Star Flowers (Top Half) -->
+  <g id="bush" filter="url(#shadow)">
+    <!-- Bushy stems -->
+    <path d="M 200 170 C 190 120, 160 80, 140 60" stroke="#166534" stroke-width="6" stroke-linecap="round" fill="none" />
+    <path d="M 200 170 C 210 120, 240 80, 260 60" stroke="#166534" stroke-width="6" stroke-linecap="round" fill="none" />
+    <path d="M 200 170 C 200 110, 200 70, 200 45" stroke="#166534" stroke-width="6" stroke-linecap="round" fill="none" />
+
+    <!-- Compound leaflets -->
+    <ellipse cx="140" cy="65" rx="22" ry="12" fill="url(#potatoPlant)" transform="rotate(-30 140 65)" />
+    <ellipse cx="260" cy="65" rx="22" ry="12" fill="url(#potatoPlant)" transform="rotate(30 260 65)" />
+    <ellipse cx="200" cy="45" rx="24" ry="13" fill="url(#potatoPlant)" />
+    <ellipse cx="165" cy="105" rx="20" ry="11" fill="url(#potatoPlant)" transform="rotate(-40 165 105)" />
+    <ellipse cx="235" cy="105" rx="20" ry="11" fill="url(#potatoPlant)" transform="rotate(40 235 105)" />
+
+    <!-- Pale violet star flowers with golden anthers -->
+    <g id="flower" transform="translate(190, 75)">
+      <polygon points="10,0 13,8 20,8 14,13 17,20 10,15 3,20 6,13 0,8 7,8" fill="#e0e7ff" stroke="#a5b4fc" stroke-width="1" />
+      <circle cx="10" cy="10" r="3.5" fill="#facc15" />
+    </g>
+  </g>
+
+  <!-- Subterranean Potato Tubers Cluster (Bottom Half) -->
+  <g id="tubers" filter="url(#shadow)">
+    <!-- Main Large Tuber -->
+    <path d="M 140 250 C 130 215, 200 200, 255 220 C 285 235, 290 280, 250 305 C 195 330, 150 285, 140 250 Z" fill="url(#potatoSkin)" />
+    <!-- Secondary Tuber -->
+    <path d="M 100 270 C 85 245, 130 220, 160 235 C 180 245, 175 285, 145 295 C 115 305, 110 290, 100 270 Z" fill="url(#potatoSkin)" opacity="0.9" />
+    <!-- Tertiary Tuber -->
+    <ellipse cx="265" cy="275" rx="42" ry="30" fill="url(#potatoSkin)" transform="rotate(15 265 275)" opacity="0.95" />
+
+    <!-- Potato Eyes / Lenticels -->
+    <ellipse cx="180" cy="240" rx="4" ry="1.5" fill="#451a03" />
+    <ellipse cx="230" cy="250" rx="5" ry="2" fill="#451a03" />
+    <ellipse cx="205" cy="280" rx="4.5" ry="1.8" fill="#451a03" />
+    <ellipse cx="160" cy="275" rx="3.5" ry="1.5" fill="#451a03" />
+    <ellipse cx="255" cy="285" rx="4" ry="1.5" fill="#451a03" />
+    <ellipse cx="130" cy="265" rx="3" ry="1.2" fill="#451a03" />
+
+    <!-- Subtle skin highlight -->
+    <ellipse cx="200" cy="235" rx="35" ry="15" fill="#fef08a" opacity="0.18" transform="rotate(-10 200 235)" />
+  </g>
+  <text x="200" y="385" font-family="sans-serif" font-size="14" font-weight="bold" fill="#eab308" text-anchor="middle">POTATO • SOLANUM TUBEROSUM</text>
+</svg>

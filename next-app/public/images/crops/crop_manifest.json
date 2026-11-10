@@ -1,0 +1,86 @@
+{
+  "carrot": {
+    "name": "Carrot",
+    "variety": "Super Kuroda",
+    "status": "Partial",
+    "file_count": 0,
+    "flat_path": "/images/crops/carrot.jpg"
+  },
+  "beetroot": {
+    "name": "Beetroot",
+    "variety": "Detroit Dark Red",
+    "status": "Verified",
+    "file_count": 5,
+    "flat_path": "/images/crops/beetroot.jpg"
+  },
+  "potato": {
+    "name": "Potato",
+    "variety": "Kufri Jyoti",
+    "status": "Verified",
+    "file_count": 5,
+    "flat_path": "/images/crops/potato.jpg"
+  },
+  "tomato": {
+    "name": "Tomato",
+    "variety": "Arka Rakshak F1",
+    "status": "Verified",
+    "file_count": 4,
+    "flat_path": "/images/crops/tomato.jpg"
+  },
+  "ragi": {
+    "name": "Ragi / Finger Millet",
+    "variety": "ML-365",
+    "status": "Verified",
+    "file_count": 5,
+    "flat_path": "/images/crops/ragi.jpg"
+  },
+  "rice": {
+    "name": "Rice / Paddy",
+    "variety": "Sona Masoori",
+    "status": "Verified",
+    "file_count": 4,
+    "flat_path": "/images/crops/rice.jpg"
+  },
+  "wheat": {
+    "name": "Wheat",
+    "variety": "GW-322",
+    "status": "Verified",
+    "file_count": 5,
+    "flat_path": "/images/crops/wheat.jpg"
+  },
+  "maize": {
+    "name": "Maize / Corn",
+    "variety": "DKC-9108",
+    "status": "Verified",
+    "file_count": 4,
+    "flat_path": "/images/crops/maize.jpg"
+  },
+  "groundnut": {
+    "name": "Groundnut / Peanut",
+    "variety": "TMV-2",
+    "status": "Partial",
+    "file_count": 0,
+    "flat_path": "/images/crops/groundnut.jpg"
+  },
+  "sugarcane": {
+    "name": "Sugarcane",
+    "variety": "Co 86032",
+    "status": "Verified",
+    "file_count": 5,
+    "flat_path": "/images/crops/sugarcane.jpg"
+  },
+  "cotton": {
+    "name": "Cotton",
+    "variety": "Bt RCH-2",
+    "status": "Partial",
+    "file_count": 0,
+    "flat_path": "/images/crops/cotton.jpg"
+  },
+  "banana": {
+    "name": "Banana",
+    "variety": "Grand Naine",
+    "status": "Verified",
+    "file_count": 5,
+    "flat_path": "/images/crops/banana.jpg"
+  }
+}
